@@ -1,5 +1,16 @@
 #slider {
 	overflow: hidden;
+	margin: 4rem 0;
+}
+
+#slider-slow {
+	overflow: hidden;
+	margin: 4rem 0;
+}
+
+#slider-slower {
+	overflow: hidden;
+	margin: 4rem 0;
 }
 
 #slider figure {
@@ -8,6 +19,22 @@
 	margin: 0;
 	left: 0;
 	animation: 20s slider infinite;
+}
+
+#slider-slow figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 24s slider infinite;
+}
+
+#slider-slower figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 28s slider infinite;
 }
 
 .featured-slider {
